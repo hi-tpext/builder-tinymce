@@ -1,0 +1,26 @@
+{
+    "name": "ichynul/builder-tinymce",
+    "description": "thinkphp extension",
+    "type": "library",
+    "keywords": [
+        "thinkphp"
+    ],
+    "homepage": "http://thinkphp.cn/",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "ichynul",
+            "email": "ichynul@outlook.com"
+        }
+    ],
+    "require": {
+    },
+    "autoload": {
+        "psr-4": {
+            "tpext\\builder\\tinymce\\": "src/"
+        },
+        "files": [
+            "src/helper.php"
+        ]
+    }
+}
