@@ -6,7 +6,7 @@ use tpext\common\Resource as baseResource;
 
 class Resource extends baseResource
 {
-    protected $version = '1.0.1';
+    protected $version = '1.0.2';
 
     protected $name = 'builder.tinymce';
 
@@ -14,7 +14,7 @@ class Resource extends baseResource
 
     protected $description = '提供[tinymce]相关样式资源';
 
-    protected $root = __DIR__ . '/../../';
+    protected $root = __DIR__ . '/../';
 
     protected $assets = 'assets';
 }

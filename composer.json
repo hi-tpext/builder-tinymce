@@ -17,10 +17,10 @@
     },
     "autoload": {
         "psr-4": {
-            "tpext\\builder\\tinymce\\": "src/"
+            "tpext\\builder\\tinymce\\": "./"
         },
         "files": [
-            "src/helper.php"
+            "./helper.php"
         ]
     }
 }
